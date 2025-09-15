@@ -1,11 +1,13 @@
 {
   "hosting": {
-    "site": "intranalytix-website",
-    "public": "build",
+    "source": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
   }
 }

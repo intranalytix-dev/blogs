@@ -3,7 +3,7 @@ import './PrivacyPolicy.css';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="privacy-policy-container">
+    <div className="privacy-policy-container" id = "privacy-policy">
       <h1 className="privacy-policy-title">Privacy & Security Policy</h1>
       <p className="privacy-policy-date">Effective Date: April 5, 2025</p>
 

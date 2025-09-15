@@ -2,7 +2,6 @@ import React, { useEffect,useState } from 'react';
 import './PricingPage.css';
 import Navbar from './Navbar';
 import FaqSection from './FaqSection';
-import Footer from './Footer';
 
 // const getCurrencyByLocale = () => {
 //   const language = navigator.language || 'en-US';
@@ -70,7 +69,7 @@ const PricingPage = () => {
   return (
     <>
       <Navbar />
-    <div className="pricing-page">
+    <div className="pricing-page" id ="pricing">
       <h1 className="pricing-title">Choose Your Plan</h1>
       <p className="pricing-subtitle">Simple pricing. Powerful value.</p>
 
@@ -165,7 +164,6 @@ const PricingPage = () => {
   <p>No setup. No spreadsheet chaos. Just instant, AI-powered clarity.</p>
   <a href="/" className="cta-button" onClick={() => window.open("https://autogen.intranalytix.com", "_blank")} >Get Started — It’s Free</a>
 </div>
-<Footer />
     </div>
     </>
   );
